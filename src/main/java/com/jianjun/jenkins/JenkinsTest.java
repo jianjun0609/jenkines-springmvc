@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class JenkinsTest {
 	
-	@RequestMapping(value = "/")
+	@RequestMapping(value = "/jenkins")
 	public @ResponseBody String test() {
 		return "hello jenkins";
 	}
