@@ -9,6 +9,6 @@ public class JenkinsTest {
 	
 	@RequestMapping(value = "/jenkins")
 	public @ResponseBody String test() {
-		return "hello jenkins webhooks";
+		return "hello jenkins webhooks11111";
 	}
 }
